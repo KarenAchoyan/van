@@ -1,0 +1,88 @@
+.footerContainer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+
+}
+.logos{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.logos img {
+    width: 100%;
+    height: 100%;
+}
+.text>p {
+    color: white;
+    width: 80%;
+    margin-top: 10px;
+    letter-spacing:1.7px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.text {
+    width: 100%;
+}
+.item {
+    width: calc(100% / 4 );
+    padding-top: 15px;
+
+}
+.item li {
+    list-style: none;
+    color: white;
+    padding: 3px;
+}
+.icons span {
+    color: white;
+    padding: 8px;
+    font-size: 24px;
+}
+.item>ul>li:first-child {
+    font-size: 25px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+}
+.data {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    color: white;
+}
+.data p img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        justify-content: center;
+    }
+}
+
+/*@media only screen and (max-width: 768px) {*/
+/*    .item {*/
+/*        flex-basis: 50%; !* Two items per row *!*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 576px) {*/
+/*    .item {*/
+/*        flex-basis: 100%; !* One item per row *!*/
+/*    }*/
+/*}*/

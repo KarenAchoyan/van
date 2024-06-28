@@ -1,0 +1,66 @@
+.registreishnForm {
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+.map {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 3px;
+}
+.iframs {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+}
+
+.contact {
+    width: 30%;
+    height: 500px;
+    margin: auto;
+}
+.text h1 {
+    margin: 20px 20px 20px 20px;
+}
+.text p {
+    margin: 20px 20px 20px 20px;
+}
+.contact p:first-child {
+    color: blue;
+}
+.contact p:last-child {
+    color: #7A7A7A;
+    border-bottom: 1px solid  #7A7A7A;
+}
+
+.formGroup {
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+.icon {
+    font-size: 30px;
+    margin: 20px;
+
+}
+.icon ul {
+    display: flex;
+}
+.icon li:first-child {
+    color: dodgerblue;
+}
+.icon li:last-child {
+    color: rgba(234, 74, 103, 0.63);
+}
+.icon li {
+    margin: 8px;
+    list-style: none;
+    color: rgba(255, 0, 0, 0.85);
+}
+
+
